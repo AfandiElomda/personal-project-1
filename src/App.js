@@ -1,12 +1,15 @@
+import { BrowserRouter,Routes,Route } from 'react-router-dom';
+import {Box} from '@mui/material';
 
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      
-    </div>
+const App = () => (
+    <BrowserRouter>
+      <Box sx={{backgroundColor: '#000'}}>
+        Navbar
+        <Routes>
+          
+        </Routes>
+      </Box>
+    </BrowserRouter>
   );
-}
 
 export default App;
